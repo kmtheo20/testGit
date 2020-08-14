@@ -7,7 +7,7 @@
 	xmlns:p="http://primefaces.org/ui">
 <h:head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>ConfeccionesWeb - Login</title>
+<title>Confecciones - Login</title>
 </h:head>
 <h:body>
 <style>
@@ -27,7 +27,7 @@
 	<div align="center">
 		<p:graphicImage  width="105apx" value="#{FacesContext.getCurrentInstance}/images/logoconfeccionesWeb.png"/>
 		    	<div class="p-field p-col" align="center" style="font-weight: bold;font-size: xx-large;font-family:monospace; ; " >
-		    		Registro de Confeciones
+		    		Registro de Confeciones - Nueva Actualizacion
 		    	</div>
 	</div>
 	<br/>
@@ -40,7 +40,7 @@
 					<p:inputText id ="txtEmail" required="true" value="#{loginView.email}" />
 					<p:outputLabel value ="Ingrese Password: "/>
 					<p:password id ="txtPassword" required="true" maxlength="10" value="#{loginView.password}"/>
-					<p:commandButton icon="fa fa-key" value="Iniciar Sesión"  action="#{loginView.validacionUsuario}" update="Mensaje"/>
+					<p:commandButton icon="fa fa-key" value="Iniciar SesiÃ³n"  action="#{loginView.validacionUsuario}" update="Mensaje"/>
 				</h:panelGrid>
 			</p:panel>
 		</h:form>
