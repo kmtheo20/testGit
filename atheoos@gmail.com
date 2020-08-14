@@ -34,7 +34,7 @@
 	<div align="center">
 	 	<h:form styleClass="centrado">
 			<p:growl id="Mensaje" showDetail="true" sticky="true"/>
-			<p:panel header="Login">
+			<p:panel header="Iniciar Sesion">
 				<h:panelGrid id="login" columns="2">
 					<p:outputLabel value ="Ingrese Email " />
 					<p:inputText id ="txtEmail" required="true" value="#{loginView.email}" />
